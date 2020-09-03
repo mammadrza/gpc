@@ -1,0 +1,148 @@
+*{
+    height: 100%;
+    margin: 0px;
+}
+
+
+.main{
+    width: 100%;
+    padding: 70px 210px;
+    box-sizing: border-box;
+    /*min-height: 800px;*/
+    /*background: #1F5EAD;*/
+    background-color: #205aac;
+    background-image: linear-gradient(123deg, #205aac 0%, #1fb5b4 100%);
+
+    display: flex;
+    justify-items: center;
+}
+
+.contains{
+    width: 100%;
+    float: left;
+    border-radius: 15px;
+    height: inherit;
+    background: white;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.a{
+    font-size: 25px;
+    color: #2CAAC6;
+    font-family: "Myanmar Text";
+}
+
+.b{
+    font-weight: 800;
+    color: #129DC1;
+    font-size: 2vw;
+    font-family: "Myanmar Text";
+}
+
+.c{
+    font-weight: 800;
+    color: #1CB06B;
+    font-size: 25px;
+    font-family: "Myanmar Text";
+}
+
+.left{
+    /*background: red;*/
+    width: 100%;
+    height: 50%;
+}
+
+.left2{
+    display: flex;
+    align-items:flex-end;
+    width: 100%;
+    height: 50%;
+    /*background: blue;*/
+}
+
+
+.imageStyle{
+    width: 100%;
+    object-fit: contain;
+
+}
+/*@media only screen and (max-width: 600px) {*/
+/*    .contains{*/
+/*        padding: 0px;*/
+/*    }*/
+/*}*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 992px) {
+    /*body {*/
+    /*    background-color: red;*/
+    /*}*/
+
+        /*.contains{*/
+        /*    padding: 0px;*/
+        /*    border-radius: 0px;*/
+        /*}*/
+
+        .main{
+            padding:50px;
+        }
+
+}
+
+@media screen and (max-width: 768px) {
+    /*body {*/
+    /*    background-color: green;*/
+    /*}*/
+
+    .contains{
+        padding: 0px;
+        border-radius: 0px;
+        border-radius: 15px;
+    }
+    .left{
+        width: 100%;
+        text-align: center;
+        height: 0%;
+        padding: 40px 0px;
+    }
+    .left2{
+         display: flex;
+         align-items: flex-end;
+         justify-content: center;
+        margin-bottom: 30px;
+         width: 100%;
+         height: 50%;
+     }
+    .b{
+        font-size: 30px;
+    }
+    .c{
+        font-size: 30px;
+    }
+    *{
+        height: inherit;
+    }
+    .imageStyle{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    /*.main{*/
+    /*    padding:0px;*/
+    /*    border-radius: 0px;*/
+    /*}*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}*/
